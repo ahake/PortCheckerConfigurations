@@ -19,3 +19,11 @@ Ports should return `LISTENING`, or at the vey least `FILTERED`. Ports that retu
 Please note: If you get an error about the execution policy, run the following command in an elevated PowerShell session:
 
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`
+
+# Contributions
+
+If you wish to contribute to the code, ask for an invite at https://github.com/ahake/PortCheckerConfigurations or fork the repository. You can also raise issues at https://github.com/ahake/PortCheckerConfigurations/issues
+
+# Roadmap
+
+Further configuration may be added over time. I am also looking at combining the UI and the Powershell script over time, and making the reliance on PortQry obsolete.
