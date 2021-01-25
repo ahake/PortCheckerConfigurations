@@ -1,8 +1,8 @@
 # PortQry
 
-This is a hybrid collection of Microsoft's PortQry and PortQry v2 tools
-`PortQry` v2 is a Microsoft Utility that can be download from [here](https://www.microsoft.com/en-au/download/details.aspx?id=17148)
-The `PortQueryUI` has been taken from PortQry v1.
+This is a hybrid collection of Microsoft's **PortQry** and **PortQryv2** tools (supplied for ease of use)
+**PortQry v2** is a Microsoft Utility that can be download from [here](https://www.microsoft.com/en-au/download/details.aspx?id=17148)
+The `PortQueryUI` has been taken from **PortQry v1**.
 
 # Checking PaperCut or AutoStore ports
 
