@@ -20,7 +20,7 @@ function Write-PortTest {
     $message = Out-String -InputObject (Test-Ports -server $server -port $port -portType $portType)
     $message = $message -replace "`n", " " -replace "`r", " "
 
-    if ($message.Contains("LISTENING") -or $message.Contains("FILTERED")) {
+    if ($message.Contains("LISTENING")) {
         Write-Host $message -ForegroundColor Green
     }
     else {
