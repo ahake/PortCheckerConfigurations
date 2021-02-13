@@ -1,10 +1,12 @@
-Import-Module .\Test-Ports\Test-Ports.psm1
+Import-Module .\Test-Ports
+
+Clear-Host
 
 Write-Host "---------------------------------------------------------------------------------------------------------------------------------------------------"
 Write-Host "This script checks connectivity to the PaperCut MF Cloud Services"
 Write-Host "`nPlease note: Use portqueryui.exe to check the usual PaperCut ports."
 Write-Host "---------------------------------------------------------------------------------------------------------------------------------------------------"
-Write-Host "Ports should return `"LISTENING`" or `"FILTERING"`" 
+Write-Host "Ports should return `"LISTENING`""
 Write-Host "---------------------------------------------------------------------------------------------------------------------------------------------------"
 
 Write-Host "`nChecking ports used for Integrated Scanning with Scan to Cloud and Cloud OCR`n"
