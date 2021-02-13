@@ -12,6 +12,8 @@ The `PortQueryUI` has been taken from **PortQry v1**.
 
 Ports should return `LISTENING`, or at the vey least `FILTERED`. Ports that return `NOT LISTENING` are blocked.
 
+**Update**: You can now also run the `Check_PaperCutMF_Local_Ports_From_Client.ps1` and `Check_AutoStore_Ports.ps1` scripts instead of running `PortQueryUI.exe`
+
 # Checking external PaperCut ports (for Integrated Scanning or OCR)
 
 - Run the `Check_PaperCutMF_Cloud_Services_Connectivity.ps1` on the server as Administrator.

@@ -6,7 +6,7 @@ function Test-Ports {
         [ValidateSet("TCP", "UDP")][String] $portType = "TCP"
     )
 
-    .\PortQry.exe -n $server -e $port -p $portType
+    & (.\PortQry.exe -n $server -e $port -p $portType)
 }
 
 function Write-PortTest {
