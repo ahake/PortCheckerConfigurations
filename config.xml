@@ -19,6 +19,18 @@ Format
     <Port Name="Internal HTTPS" Value="443" Protocol="TCP"/>
     <Port Name="Fuji Xerox AIP" Value="9192" Protocol="TCP"/>
   </Service>
+  <Service Name="Papercut Hive">
+    <Port Name="HTTP Protocol for accepting print jobs from Chromebook clients" Value="9263" Protocol="TCP"/>
+    <Port Name="HTTPS Protocol for accepting print jobs from Windows, macOS, Android and iOS clients" Value="9264" Protocol="TCP"/>
+    <Port Name="HTTPS protocol for offline printing" Value="9266" Protocol="TCP"/>
+    <Port Name="MQTT protocol to send notifications to the Edge Nodes and PaperCut Cloud Services" Value="443" Protocol="TCP"/>
+    <Port Name="TCP Protocol Used for SNMP requests" Value="161" Protocol="TCP"/>
+    <Port Name="UDP Protocol Used for SNMP requests" Value="161" Protocol="UDP"/>
+	<Port Name="TCP Protocol Used for SNMP requests" Value="162" Protocol="TCP"/>
+    <Port Name="UDP Protocol Used for SNMP requests" Value="162" Protocol="UDP"/>
+	<Port Name="IPP/IPPS to release jobs" Value="631" Protocol="TCP"/>
+	<Port Name="IPP/IPPS to release jobs" Value="80" Protocol="TCP"/>
+  </Service>
   <Service Name="AutoStore">
     <Port Name="AutoCapture" Value="8085" Protocol="TCP"/>
     <Port Name="Fuji Xerox AIP - Web Server" Value="3242" Protocol="TCP"/>
