@@ -17,3 +17,11 @@ Write-PortTest -server $server -port 3242
 Write-PortTest -server $server -port 3281
 Write-PortTest -server $server -port 25
 Write-PortTest -server $server -port 3290
+Write-PortTest -server $server -port 45000
+Write-PortTest -server $server -port 45001
+Write-PortTest -server $server -port 49001
+Write-PortTest -server $server -port 8181
+Write-PortTest -server $server -port 9042
+Write-PortTest -server $server -port 7001
+Write-PortTest -server $server -port 7199
+Write-PortTest -server $server -port 44370
